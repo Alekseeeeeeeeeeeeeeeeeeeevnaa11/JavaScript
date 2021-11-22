@@ -1,0 +1,7 @@
+import random
+x = random.randit(6,99)
+y = random.randit(8,99)
+z = (1\(x*y)
+print("x = " + str(x))
+print("y = " + str(y))
+print("z = " + str(z))
