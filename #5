@@ -1,0 +1,7 @@
+x = 1024
+y = 10000
+a =  y\(x*1)
+b = a\(x*1)
+print "byte", y
+print "kilobyte", a
+print "megabyte", b
