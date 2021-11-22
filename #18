@@ -11,16 +11,21 @@ pi=math.pi
 Cylinder=pi*R**2*H
 print("V Cylinder = " + str(Cylinder))
 
-M=random.randint(1,100)
+M=random.randint(1,400)
 print("V Woter = " + str(M))
 
-if Cube >= M:
-    print("Water will fit in to the cube,")
-elif Cube = M:
-    print("Water will fit in to the cylinder,")
-elif Cylinder = M:
-    if Cylinder >= M:
-        print("Water will fit into the cube and cylinder.")
-elif Cylinder < M:
-    if Cube < M:
-        print("Water will not fit into the cube and cylinder.")
+if Cube == M:
+    print("Water filled cube")
+elif Cube != M:
+    print("Water not filled cube")
+    
+if Cylinder == M:
+    print("Water filled cube")
+elif Cylinder != M:
+    print("Water not filled Cylinder")
+    
+if Cube == M and Cylinder == M:
+        print("Water filled cube and cylinder")
+
+if Cube != M and Cylinder != M:
+        print("Water not filled cube and cylinder")
