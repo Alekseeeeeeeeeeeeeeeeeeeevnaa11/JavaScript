@@ -1,0 +1,8 @@
+import random
+a = random.uniform(-999,999)
+if a > 0:
+  print(str(a) + "-" + "Positive number")
+elif a < 0:
+  print(str(a) + "-" + "Nigative number")
+else:
+  print(str(a) + "-" + "The number is 0")
