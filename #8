@@ -1,0 +1,11 @@
+import random
+a = random.randint(0,999)
+print(a)
+if a % 2 == 0:
+  print("the number is even")
+else:
+  print("the number is odd")
+if a % 5 == 0:
+  print("the number is multiple of 5")
+else:
+  print("the number is not moltiple of 5")
