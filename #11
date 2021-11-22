@@ -1,0 +1,13 @@
+a = 15
+b =  10
+c = 5
+d = 50
+f = 45
+if (a<d and b<f)or(a<f and b<d):
+  print("fits in the door")
+elif (b<d and c<f)or(c<d and b<f):
+  print("fits in the door")
+elif (a<d and c<f)or(c<d and a<f):
+  print("fits in the door")
+else:
+  print("does not fit the door")   
