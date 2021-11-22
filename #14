@@ -1,0 +1,10 @@
+import math
+S = 60
+a = math.sqrt(S)
+R = 20
+K = 10
+D = R*2
+if a-D > K:
+  print("it's possible")
+else:
+  print("it's impossible")
