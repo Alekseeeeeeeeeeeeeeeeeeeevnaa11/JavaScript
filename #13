@@ -1,0 +1,11 @@
+import math
+a = 7
+print("(a) the cross-sectional diameters = " + str(a))
+b = 3
+print("(b) square beam width = " + str(b))
+c = b * math.sqrt(5)
+print("(c) dioganal beams = " + str(c))
+if a >= c:
+  print("it's possible")
+if a < c:
+  print("it's impossible")
