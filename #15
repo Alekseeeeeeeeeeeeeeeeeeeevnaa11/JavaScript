@@ -1,0 +1,11 @@
+import random
+x = random.randit(1,54)
+print(x)
+if x > 35:
+  print("side")
+else:
+  print("coupe")
+if x%2 == 0:
+  print("top")
+else: 
+  print("bottom")
